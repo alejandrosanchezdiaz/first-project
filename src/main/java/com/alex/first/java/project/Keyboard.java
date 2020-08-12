@@ -12,7 +12,7 @@ public class Keyboard extends InputDevices {
 
     @Override
     public String toString() {
-        return "Keyboard{" + "idKeyboard=" + idKeyboard + '}';
+        return "Keyboard{" + "idKeyboard=" + idKeyboard + ", " + super.toString() + '}';
     }
 
 }

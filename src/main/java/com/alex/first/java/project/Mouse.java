@@ -12,7 +12,7 @@ public class Mouse extends InputDevices {
 
     @Override
     public String toString() {
-        return "Mouse{" + "idMouse=" + idMouse + '}';
+        return "Mouse{" + "idMouse=" + idMouse + ", " + super.toString() + '}';
     }
 
 }
