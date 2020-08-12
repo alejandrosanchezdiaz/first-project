@@ -28,7 +28,7 @@ public class InputDevices {
 
     @Override
     public String toString() {
-        return "InputDevices{" + "typeOfInput=" + typeOfInput + ", brand=" + brand + '}';
+        return "InputDevices{" + "typeOfInput =" + typeOfInput + ", brand =" + brand + '}';
     }
 
 }
