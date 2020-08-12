@@ -10,7 +10,7 @@ public class Computer {
     private static int computerCounter;
     
     private Computer(){
-        this.idComputer = ++idComputer;
+        this.idComputer = ++computerCounter;
     }
   
     public Computer (String name, Screen screen, Keyboard keyboard, Mouse mouse){
